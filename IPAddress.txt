@@ -1,0 +1,14 @@
+Private Ip - are used within azure network and are free
+Public Ip - are accessable outside Azure infrastructure
+  -Static public ip - 5 static ip's are free in azure
+  -Dynamic public ip - 1 Dynamic ip free  in azure
+  
+  CIDR Notation:
+-  representing Ip range with "/" Notation
+- Example 190.0.0.0/8
+ - /8,/16/24-> 1 byte,2 byte,3 byte
+ Explanation
+ -198.0.0.0/8 means  starting from 198.0.0.0  to 198.255.255.255
+ -198.123.0.0/16 means  starting from 198.123.0.0  to 198.123.255.255
+
+ -In CIDR 0 is the variable which will be replaced.
